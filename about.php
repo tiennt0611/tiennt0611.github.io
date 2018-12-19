@@ -10,24 +10,27 @@
 <body>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<a href="index.html" class="navbar-brand">HanoiTour</a>
+			<a href="index.php" class="navbar-brand">HanoiTour</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="index.html" class="nav-link">Home</a>
+						<a href="index.php" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item active">
-						<a href="about.html" class="nav-link">About us</a>
+						<a href="about.php" class="nav-link">About us</a>
 					</li>
 					<li class="nav-item">
-						<a href="service.html" class="nav-link">Services</a>
+						<a href="service.php" class="nav-link">Services</a>
 					</li>
 					<li class="nav-item">
-						<a href="block.html" class="nav-link">Landscape</a>
+						<a href="news.php" class="nav-link">News</a>
 					</li>
 					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
+						<a href="contact.php" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="login.php" class="nav-link" style="color: blue;">Log in</a>
 					</li>
 				</ul>
 			</div>
@@ -73,13 +76,25 @@
 
 	<footer id="main-footer" class="text-center p-4">
 		<div class="container">
-			<div class="row">
-				<div class="col">
-					<p>Copyright 2018 &copy; HanoiTour</p>
+			<div class="col-md-6" style="float: left;">
+				<div class="row mb-2">
+					<a href="login.php">Log in</a>(For staff only)
+				</div>
+				<div class="row mb-2">
+					<a href="#">Go Top Page</a>
+				</div>
+				<div class="row mb-2">
+					<a href="#">Register Now</a>
+				</div>					
+			</div>
+				<div class="col-md-6 d-none d-md-block" style="float: right;">
+					<p class="row mb-2">Copyright 2018 &copy; HanoiTour</p>
+					<p class="row mb-2">Tiennt0611@gmail.com</p>
+					<p class="row mb-2">Lai Yen, Hoai Duc, Ha Noi</p>
 				</div>
 			</div>
 		</div>
-	</footer>	
+	</footer>		
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

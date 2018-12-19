@@ -10,24 +10,24 @@
 <body>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<a href="index.html" class="navbar-brand">HanoiTour</a>
+			<a href="index.php" class="navbar-brand">HanoiTour</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="index.html" class="nav-link">Home</a>
+						<a href="index.php" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="about.html" class="nav-link">About us</a>
+						<a href="about.php" class="nav-link">About us</a>
 					</li>
 					<li class="nav-item">
-						<a href="service.html" class="nav-link">Services</a>
+						<a href="service.php" class="nav-link">Services</a>
 					</li>
 					<li class="nav-item active">
-						<a href="block.html" class="nav-link">Landscape</a>
+						<a href="news.php" class="nav-link">News</a>
 					</li>
 					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
+						<a href="contact.php" class="nav-link">Contact</a>
 					</li>
 				</ul>
 			</div>
